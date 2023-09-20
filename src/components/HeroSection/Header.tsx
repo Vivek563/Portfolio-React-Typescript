@@ -1,5 +1,5 @@
 import React from "react";
-import RandomWalk from "./RandomWalk.jsx";
+import RandomWalk from "./RandomWalk.js";
 function Header() {
   return (
     <>

@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import './PageRoute.css'
-import Navbar from '../components/Navbar' 
-import Sidebar from '../components/Sidebar'
-import Header from '../components/Header' 
-import About from '../components/About'
-import Services from '../components/Services'
+import React, { useState, useEffect } from "react";
+import "./PageRoute.css";
+import Navbar from "../NavBar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import Header from "../HeroSection/Header";
+import About from "../About/About";
+import Services from "../Service/Services";
 // import Project from '../components/Project'
-import Connect from '../components/Connect'
-import Skills from '../components/Skills'
-import Timeline from '../components/Timeline'
-import Blog from '../components/Blog'
-import Footer from '../components/Footer'
+import Connect from "../Contact/Connect";
+import Skills from "../Skills/Skills";
+import Timeline from "../Timeline/Timeline";
+import Blog from "../Blogs/Blog";
+import Footer from "../Footer/Footer";
 
 function PageRoute() {
-  
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -27,23 +26,23 @@ function PageRoute() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Cleanup the event listener
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const openSidebar = () => {
-    console.log('open sidebar');
+    console.log("open sidebar");
     setIsSidebarOpen(true);
   };
 
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
-  
+
   return (
     <>
       <Navbar isNavbarFixed={isNavbarFixed} openSidebar={openSidebar} />
@@ -57,11 +56,8 @@ function PageRoute() {
       <Connect />
       <Footer />
       {/* <Project /> */}
-     
-      
-
     </>
-  )
+  );
 }
 
-export default PageRoute
+export default PageRoute;
