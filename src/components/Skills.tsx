@@ -13,13 +13,13 @@ function Skills() {
     <div className="section-center skills-center">
 
       <article>
-        <h3>frontend</h3>
+        
 
         <div className="skill">
           <p>HTML/CSS</p>
           <div className="skill-container">
             <div className="skill-value"></div>
-            <p className="skill-text">50%</p>
+            <p className="skill-text">95%</p>
           </div>
         </div>
 
@@ -27,14 +27,21 @@ function Skills() {
           <p>Javascript</p>
           <div className="skill-container">
             <div className="skill-value value-70"></div>
-            <p className="skill-text skill-text-70">70%</p>
+            <p className="skill-text skill-text-70">80%</p>
           </div>
         </div>
 
         <div className="skill">
           <p>React</p>
           <div className="skill-container">
-            <div className="skill-value value-80"></div>
+            <div className="skill-value react"></div>
+            <p className="skill-text react-text">70%</p>
+          </div>
+        </div>
+        <div className="skill">
+          <p>Typescript</p>
+          <div className="skill-container">
+            <div className="skill-value typescript"></div>
             <p className="skill-text skill-text-80">80%</p>
           </div>
         </div>
@@ -42,26 +49,32 @@ function Skills() {
       </article>
 
       <article>
-        <h3>backend</h3>
+      <div className="skill">
+          <p>Java</p>
+          <div className="skill-container">
+            <div className="skill-value value-80"></div>
+            <p className="skill-text skill-text-80">80%</p>
+          </div>
+        </div>
 
         <div className="skill">
           <p>Node</p>
           <div className="skill-container">
-            <div className="skill-value"></div>
-            <p className="skill-text">50%</p>
+            <div className="skill-value node"></div>
+            <p className="node-text">50%</p>
           </div>
         </div>
 
         <div className="skill">
-          <p>PHP</p>
+          <p>Mongodb</p>
           <div className="skill-container">
-            <div className="skill-value value-70"></div>
-            <p className="skill-text skill-text-70">70%</p>
+            <div style={{backgroundColor:"#6c6ce5"}} className="skill-value node"></div>
+            <p  className="node-text">50%</p>
           </div>
         </div>
 
         <div className="skill">
-          <p>Python</p>
+          <p>Git/Github</p>
           <div className="skill-container">
             <div className="skill-value value-80"></div>
             <p className="skill-text skill-text-80">80%</p>

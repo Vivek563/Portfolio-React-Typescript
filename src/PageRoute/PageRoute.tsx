@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 import Header from '../components/Header' 
 import About from '../components/About'
 import Services from '../components/Services'
-import Project from '../components/Project'
+// import Project from '../components/Project'
 import Connect from '../components/Connect'
 import Skills from '../components/Skills'
 import Timeline from '../components/Timeline'
@@ -50,13 +50,13 @@ function PageRoute() {
       <Sidebar isSidebarOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <Header />
       <About />
-      <Services />
-      <Project />
-      <Connect />
       <Skills />
+      <Services />
       <Timeline />
       <Blog />
+      <Connect />
       <Footer />
+      {/* <Project /> */}
      
       
 

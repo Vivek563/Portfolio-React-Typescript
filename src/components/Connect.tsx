@@ -5,10 +5,10 @@ function Connect() {
     <>
     
   <section className="connect">
-    <video autoPlay muted loop className="video-container" poster="./images/project-1.jpeg">
+    {/* <video autoPlay muted loop className="video-container" poster="./images/project-1.jpeg">
       <source src="./assets/connect.mp4" type="video/mp4"/>
       Sorry!!
-    </video>
+    </video> */}
 
     <div className="video-banner">
     

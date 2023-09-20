@@ -42,10 +42,14 @@ Variables
   --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
   --letterSpacing: 0.25rem;
-  --borderRadius: 0.5rem;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --borderRadius: 0.8rem;
+  --light-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
+  --yellow:#f9d74c;
+  --blue:#6c6ce5;
+  --light-red:#f97b8b;
+
 }
 /*
 =============== 
@@ -103,6 +107,7 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+  text-align: justify;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -354,6 +359,7 @@ Sidebar
   background: var(--clr-white);
   z-index: 10;
   box-shadow: var(--light-shadow);
+  align-content: center;
 }
 
 .navbar-fixed:hover {
@@ -461,6 +467,9 @@ Hero
   }
 }
 
+#defaultCanvas1{
+  display: none;
+}
 /*
 =============== 
 About
@@ -533,6 +542,8 @@ Services
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #000;
+  font-family:900 ;
   border-radius: var(--borderRadius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -550,6 +561,7 @@ Services
 }
 
 .service p {
+  color: #000;
   transition: var(--transition);
 }
 
@@ -845,28 +857,56 @@ Skills
   position: absolute;
   top: 0;
   left: 0;
-  background: var(--clr-primary-5);
+  background:var(--light-red);
   height: 100%;
-  width: 50%;
+  width: 95%;
   border-radius: var(--borderRadius);
 }
 
-.value-70 {
-  width: 70%;
+.node{
+width: 50%;
 }
 
-.value-80 {
-  width: 80%;
-}
-
-.skill-text {
+.node-text{
   position: absolute;
   top: -2rem;
   left: 50%;
   transform: translateX(-50%);
 }
 
+.value-70 {
+  width: 80%;
+  background: var(--blue);
+}
+
+.react{
+  width: 70%;
+  background: var(--yellow);
+}
+
+.value-80 {
+  width: 80%;
+  background-color: var(--yellow);
+}
+.typescript{
+  width: 80%;
+  background-color: var(--blue);
+}
+.skill-text {
+  position: absolute;
+  top: -2rem;
+  left: 95%;
+  transform: translateX(-50%);
+}
+
+
+
+
 .skill-text-70 {
+  left: 80%;
+}
+
+.react-text{
   left: 70%;
 }
 
@@ -992,16 +1032,16 @@ Blog
   place-items: center;
 }
 
-.card:hover .card-front {
+/* .card:hover .card-front {
   transform: rotateY(-180deg);
-}
-
+} */
+/* 
 .card:hover .card-back {
   transform: rotateY(0);
-}
+} */
 
 .card-front img {
-  height: 13rem;
+  height: 10rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-top-left-radius: var(--borderRadius);
