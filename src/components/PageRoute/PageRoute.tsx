@@ -9,7 +9,7 @@ import Services from "../Service/Services";
 import Connect from "../Contact/Connect";
 import Skills from "../Skills/Skills";
 import Timeline from "../Timeline/Timeline";
-import Blog from "../Blogs/Blog";
+import Blog from "../Project/Blog";
 import Footer from "../Footer/Footer";
 
 function PageRoute() {
