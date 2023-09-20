@@ -1111,6 +1111,19 @@ background-size:100%;
 }
 }
 
+
+.footer-copyright{
+  padding: 30px;
+
+}
+
+.footer-copyright h4{
+text-align: center;
+}
+.footer-copyright h5{
+text-align: center;
+}
+
 /*************footer End*****************/
 
 

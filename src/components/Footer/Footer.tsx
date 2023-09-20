@@ -11,6 +11,10 @@ function Footer() {
             <div className="footer_bg_two"></div>
         </div>
     </div>
+        <div className='footer-copyright'>
+          <h4>Feel Free To Make Replicas</h4>
+          <h5>&copy; No Copyright Issue</h5>
+        </div>
     
   </footer>
     </>
