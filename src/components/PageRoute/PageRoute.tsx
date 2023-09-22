@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import "./PageRoute.css";
 import Navbar from "../NavBar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";

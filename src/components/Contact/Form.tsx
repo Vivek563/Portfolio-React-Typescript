@@ -1,18 +1,19 @@
-import React from "react";
+
 
 function Form() {
+  const cols = 30;
+  const rows = 5;
   return (
     <>
       <div className="container">
         <div className="picture-container">
           <div className="picture">
-            <svg
+            <svg xmlnsXlink="http://www.w3.org/1999/xlink"
               width="400px"
               height="300px"
               viewBox="-150 -99 1230 1022"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
             >
               <desc>Created with Sketch.</desc>
               <defs></defs>
@@ -404,13 +405,13 @@ function Form() {
           <form className="contact-form">
             <span className="form-header">Contact us</span>
             <input type="email" className="email-input" placeholder="Email" />
-            <textarea
+            <textarea cols={cols}
+              rows={rows}
               name="feedback"
-              cols="30"
-              rows="5"
+              
               className="message"
               placeholder="Message..."
-            ></textarea>
+            />
             <button className="submit" type="submit">
               Submit
             </button>

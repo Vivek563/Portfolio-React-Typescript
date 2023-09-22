@@ -1,5 +1,5 @@
-import React from "react";
-import RandomWalk from "./RandomWalk.js";
+// import RandomWalk from "./RandomWalk.js";
+
 function Header() {
   return (
     <>
@@ -7,9 +7,9 @@ function Header() {
         <div className="section-center hero-center">
           <article className="">
             <div className=""></div>
-            {/* <img src="./assets/hero-img-small.jpg" alt="hero-photo" className="hero-img"/>  */}
+            <img src="./assets/hero-img-small.jpg" alt="hero-photo" className="hero-img"/> 
 
-            <RandomWalk />
+            {/* <RandomWalk /> */}
           </article>
 
           <article className="hero-info">
