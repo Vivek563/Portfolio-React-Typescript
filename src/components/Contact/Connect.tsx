@@ -1,11 +1,16 @@
-
 import Form from "./Form";
+import SleepingPanda from "./SleepingPanda";
 
 function Connect() {
   return (
     <>
       <section className="connect">
-        <Form />
+        <div className="pandascenter">
+        <SleepingPanda/>
+        </div>
+        <div>
+          <Form />
+        </div>
       </section>
     </>
   );

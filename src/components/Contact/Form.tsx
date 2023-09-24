@@ -6,7 +6,7 @@ function Form() {
   return (
     <>
       <div className="container">
-        <div className="picture-container">
+        {/* <div className="picture-container">
           <div className="picture">
             <svg xmlnsXlink="http://www.w3.org/1999/xlink"
               width="400px"
@@ -400,10 +400,11 @@ function Form() {
               </g>
             </svg>
           </div>
-        </div>
+        </div> */}
         <div className="contact-form-container">
           <form className="contact-form">
-            <span className="form-header">Contact us</span>
+            <span  className="form-header">Contact us</span>
+            <input type="text" className="email-input" placeholder="Name" />
             <input type="email" className="email-input" placeholder="Email" />
             <textarea cols={cols}
               rows={rows}

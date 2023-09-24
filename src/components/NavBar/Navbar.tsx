@@ -19,10 +19,10 @@ function Navbar({ isNavbarFixed, openSidebar }: NavBarProps) {
       </div>
 
       <ul className="nav-links">
-        <li><a href="./index.html" className="nav-link">Home</a></li>
-        <li><a href="./about.html" className="nav-link">About</a></li>
-        <li><a href="./projects.html" className="nav-link">Project</a></li>
-        <li><a href="./contact.html" className="nav-link">Contact</a></li>
+        <li><a href="/" className="nav-link">Home</a></li>
+        <li><a href="about" className="nav-link">About</a></li>
+        <li><a href="contact" className="nav-link">Contact</a></li>
+        <li><a href="project" className="nav-link">Project</a></li>
       </ul>
     </div>
   </nav>

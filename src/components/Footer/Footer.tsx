@@ -12,7 +12,8 @@ function Footer() {
         </div>
     </div>
         <div className='footer-copyright'>
-          <h4>Feel Free To Make Replicas</h4>
+          {/* <h4>Feel Free To Make Replicas</h4> */}
+          <h5>&lt;/&gt; and Crafted with 💛 by Vivek Maurya</h5>
           <h5>&copy; No Copyright Issue</h5>
         </div>
     
