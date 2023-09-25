@@ -3,7 +3,7 @@
 function SleepingPanda() {
   return (
     <>
-    <svg viewBox="0 0 359.4 140.2" style={{width:"200%", height:"200%"}}>
+    <svg viewBox="0 0 359.4 140.2" >
         {/* <!-- panda --> */}
         <defs>
             <linearGradient id="panda" x1="50%" y1="0%" x2="50%" y2="100%">
