@@ -1219,13 +1219,13 @@ form
   transform: translateY(-2px);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .connect{
-    margin: 37px;
+    margin: 12px;
     margin-top: 100px;
   }
   .container{
-    width: 387px;
+    width: 377px;
     height: 463px;
 
   }
@@ -1235,7 +1235,7 @@ form
   }
   .contact-form-container{
     height: 90%;
-    width: 319px;
+    width: 269px;
   }
 }
 
