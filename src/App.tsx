@@ -1,5 +1,4 @@
-import PageRoute from "./components/PageRoute/PageRoute.js";
-import React from "react";
+
 import { Outlet } from 'react-router-dom'
 import Navbar from "./components/NavBar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
