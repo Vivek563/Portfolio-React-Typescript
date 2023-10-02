@@ -39,7 +39,7 @@ function Blog() {
         <div style={{ textAlign: "center", marginTop: "30px" }}>
           <h1>Want to See All My Work?</h1>
           <h4>
-            <a href="">Click Me🙃</a>
+            <a href="https://github.com/vivek563" target="blank">Click Me🙃</a>
           </h4>
         </div>
       </section>

@@ -33,8 +33,8 @@ function App() {
   }, []);
 
   const openSidebar = () => {
-    console.log("open sidebar");
     setIsSidebarOpen(true);
+    console.log("open sidebar");
   };
 
   const closeSidebar = () => {
