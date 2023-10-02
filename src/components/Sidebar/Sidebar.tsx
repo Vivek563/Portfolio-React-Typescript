@@ -23,11 +23,35 @@ function Sidebar({ isSidebarOpen, closeSidebar }: SidebarProps) {
       </ul>
 
       <ul className="social-icons">
-        <li><a href="#" className="social-icon"><i className="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="#" className="social-icon"><i className="fa-brands fa-facebook"></i></a></li>
-        <li><a href="#" className="social-icon"><i className="fa-brands fa-twitter"></i></a></li>
-        <li><a href="#" className="social-icon"><i className="fa-brands fa-squarespace"></i></a></li>
-        <li><a href="#" className="social-icon"><i className="fa-brands fa-instagram"></i></a></li>
+      <li>
+                <a href="https://github.com/vivek563" className="social-icon">
+                  <i className="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/vivek563maurya"
+                  className="social-icon"
+                >
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/vivekmaurya_563/"
+                  className="social-icon"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:vivek563maurya@gmail.com"
+                  className="social-icon"
+                >
+                  <i className="fas fa-paper-plane"></i>
+                </a>
+              </li>
       </ul>
     </aside>
   );

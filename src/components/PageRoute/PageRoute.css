@@ -282,7 +282,7 @@ Sidebar
   height: 100%;
   width: 100%;
   background: var(--clr-grey-10);
-  z-index: 2;
+  z-index: 100;
   display: grid;
   place-items: center;
   transition: var(--transition);
@@ -471,6 +471,8 @@ Hero
 #defaultCanvas1 {
   display: none;
 }
+
+
 /*
 =============== 
 About
@@ -804,7 +806,7 @@ Blog
   perspective: 1500px;
   margin-bottom: 2rem;
 }
-.project-btn-prop{
+.project-btn-prop {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1150,12 +1152,12 @@ Projects Page
 Card
 ################## 
 */
-.project-content{
+.project-content {
   z-index: 300;
 }
-.project-name{
-    color: #fff;
-    text-align: center;
+.project-name {
+  color: #fff;
+  text-align: center;
 }
 
 .cardstyle {

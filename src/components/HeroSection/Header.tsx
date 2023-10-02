@@ -1,16 +1,16 @@
-import React from 'react';
-import RandomWalk from './RandomWalk'
+import React from "react";
+import RandomWalk from "./RandomWalk";
+import RandomWalkMobile from "./RandomWalkMobile";
 
 function Header() {
+  const width = window.innerWidth;
   return (
     <>
       <header className="hero">
         <div className="section-center hero-center">
-          <article className="">
-            <div className=""></div>
+          <article className="header-mobile-view">
             {/* <img src="./assets/hero-img-small.jpg" alt="hero-photo" className="hero-img"/>  */}
-
-            <RandomWalk />
+            {width > 998 ? <RandomWalk /> : <RandomWalkMobile />}
           </article>
 
           <article className="hero-info">
