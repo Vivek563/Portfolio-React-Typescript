@@ -28,7 +28,7 @@ function Blog() {
           
           <Card 
               title="Blog App Using Appwrite (React)"
-              projectdiscription="I developed a React Blog App using Appwrite as the database, featuring user login and signup, image uploading, and comprehensive CRUD functionality. This application enables users to create, read, update, and delete blog posts while securely managing their accounts and multimedia content, offering a seamless and engaging blogging experience"
+              projectdiscription="I developed a React Blog App using Appwrite as the database, featuring user login and signup, image uploading, and comprehensive CRUD functionality. This application enables users to create, read, update, and delete blog posts while securely managing their accounts and multimedia content, offering a seamless and engaging blogging experience."
               sourcelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
               livelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
               

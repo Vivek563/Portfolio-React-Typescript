@@ -1,7 +1,8 @@
 function Project() {
   return (
     <>
-     <div className="project-card-design">
+    <h2 style={{marginTop:"10rem",textAlign:"center"}}>Updates are currently underway. <br/> We will provide a comprehensive update shortly.</h2>
+     {/* <div className="project-card-design">
       <div className="project-design-container">
         <div className="drop" >
           <div className="project-design-content">
@@ -37,7 +38,7 @@ function Project() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     </>
   );
 }

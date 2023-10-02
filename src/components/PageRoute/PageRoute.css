@@ -193,9 +193,11 @@ Navbar
 */
 
 #nav {
+  align-items: center;
+  text-align: center;
+  display: flex;
   height: 5rem;
   padding: 1rem;
-  display: grid;
   align-items: center;
   transition: var(--transition);
 }
@@ -606,7 +608,7 @@ Connect
   flex-direction: row;
   margin: 150px;
   height: 70vh;
-  margin-top: 10rem;
+  margin-top: 12rem;
   flex-wrap: wrap;
 }
 /*
@@ -1164,7 +1166,7 @@ Card
 }
 .card-project-style {
   display: flex;
-  z-index: 100;
+  z-index: 1;
   flex-direction: column;
   padding: 20px;
   width: 390px;

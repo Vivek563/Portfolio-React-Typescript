@@ -34,7 +34,6 @@ function App() {
 
   const openSidebar = () => {
     setIsSidebarOpen(true);
-    console.log("open sidebar");
   };
 
   const closeSidebar = () => {
