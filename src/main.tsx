@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import PageRoute from './components/PageRoute/PageRoute'
-import About from './components/Page/About'
-import Contact from './components/Page/Contact'
-import Project from './components/Page/Project'
+import About from './components/About/About'
+import Contact from './components/Contact/Connect'
+import Project from './components/Project/Project'
 import App from './App'
 
 const router = createBrowserRouter(
