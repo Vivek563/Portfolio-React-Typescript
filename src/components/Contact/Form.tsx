@@ -402,13 +402,13 @@ function Form() {
           </div>
         </div> */}
         <div className="contact-form-container">
-          <form className="contact-form" data-netlify-honeypot="bot-field" method="POST" data-netlify="true">
+          <form className="contact-form" action="/contact" method="POST" data-netlify="true">
             <span  className="form-header">Contact us</span>
-            <input type="text" className="email-input" placeholder="Name" />
-            <input type="email" className="email-input" placeholder="Email" />
+            <input type="text" name="name" className="email-input" placeholder="Name" />
+            <input type="email" name="email" className="email-input" placeholder="Email" />
             <textarea cols={cols}
               rows={rows}
-              name="feedback"
+              name="message"
               
               className="message"
               placeholder="Message..."
