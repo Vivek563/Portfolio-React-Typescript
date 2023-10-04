@@ -1,4 +1,4 @@
-
+import React from "react";
 
 function Form() {
   const cols = 30;
@@ -402,7 +402,7 @@ function Form() {
           </div>
         </div> */}
         <div className="contact-form-container">
-          <form className="contact-form">
+          <form className="contact-form" data-netlify-honeypot="bot-field" method="POST" data-netlify="true">
             <span  className="form-header">Contact us</span>
             <input type="text" className="email-input" placeholder="Name" />
             <input type="email" className="email-input" placeholder="Email" />
