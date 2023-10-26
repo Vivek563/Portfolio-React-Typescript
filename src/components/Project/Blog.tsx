@@ -1,5 +1,5 @@
 import Card from "./Card";
-
+import React from "react";
 
 function Blog() {
   return (
@@ -27,10 +27,31 @@ function Blog() {
           /> 
           
           <Card 
-              title="Blog App Using Appwrite (React)"
-              projectdiscription="I developed a React Blog App using Appwrite as the database, featuring user login and signup, image uploading, and comprehensive CRUD functionality. This application enables users to create, read, update, and delete blog posts while securely managing their accounts and multimedia content, offering a seamless and engaging blogging experience."
+              title="Digital FingerPrint (React)"
+              projectdiscription="Digital Fingerprint is an open-source web application powered by Vite and React, designed for seamless visitor data analysis. It offers real-time insights into geographical specifics, including IP address, city, country, ISP, and more. Additionally, it provides comprehensive device details such as browser, operating system, screen resolution, and installed plugins. With its user-friendly interface and minimalist design."
               sourcelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
               livelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
+              
+          />  
+          <Card 
+              title="Outlook Email Clone (React)"
+              projectdiscription="Experience the power of our React and Redux-based email client app, reminiscent of Outlook. Effortlessly manage your emails, view detailed email information, and take action with ease. Enjoy a sleek email list page with pagination, read/unread styling, and filter emails by favorites or status. Plus, stay organized with a user-friendly date format (dd/MM/yyyy hh:mm a). Email management has never been this seamless!"
+              sourcelink="https://github.com/Vivek563/Outlook-email-Clone-React-app"
+              livelink="https://vivekoutlookmail.netlify.app/"
+              
+          />  
+          <Card 
+              title="BCA Notes"
+              projectdiscription="Build your Knowledge skills with the BCA Application. Learn the subject of BCA with a proper notes or become an expert of computer with this best BCA learning app. Learn to code with C Language for free with a many notes of BCA for learning app. If you’re reparing to take admission in BCA or doing BCA from any college then this BCA app will help you in ever for PREPARING NOTES clearing every problems."
+              sourcelink="https://play.google.com/store/apps/details?id=com.vivek.bcanotes&hl=en&gl=US&pli=1"
+              livelink="https://play.google.com/store/apps/details?id=com.vivek.bcanotes&hl=en&gl=US&pli=1"
+              
+          />  
+          <Card 
+              title="URL Shortener"
+              projectdiscription="Introducing my custom URL shortener app, a sleek and efficient solution crafted with HTML, CSS, JavaScript, and EJS. Simplifying long, cumbersome links into concise, user-friendly URLs, this application offers a seamless browsing experience. Experience the convenience of effortless link sharing and tracking, all wrapped in an elegant, user-friendly design. Say goodbye to unwieldy URLs and embrace the power of simplicity with this intuitive URL shortener."
+              sourcelink="https://github.com/Vivek563/Url-Shortner"
+              livelink="https://github.com/Vivek563/Url-Shortner"
               
           /> 
           
