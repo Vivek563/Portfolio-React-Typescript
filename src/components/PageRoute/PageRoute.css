@@ -472,7 +472,6 @@ Hero
   display: none;
 }
 
-
 /*
 =============== 
 About
@@ -497,14 +496,18 @@ About
 .about-center {
   display: grid;
   gap: 3rem 2rem;
+  
 }
 
 .about-img-container {
   justify-self: center;
+  
+
 }
 
 .about-img-container .overlay {
   display: none;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 992px) {
@@ -887,7 +890,7 @@ Footer
 */
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: #fffaeb;
 }
 
 .new_footer_top {
@@ -1157,6 +1160,8 @@ Card
 }
 .project-name {
   color: #fff;
+  width: 100%;
+  height: 20px;
   text-align: center;
 }
 
@@ -1166,6 +1171,27 @@ Card
   align-content: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1500px) and (min-width: 600px) {
+  .project-name {
+    
+    margin-top: 70px;
+    color: #fff;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+  }
+
+  .project-btn-prop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    gap: 58px;
+    margin-bottom: 70px;
+  }
+}
+
 .card-project-style {
   display: flex;
   z-index: 1;
@@ -1418,9 +1444,15 @@ form
   }
 }
 
-.pandascenter {
+.pandaForm {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55%;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1500px) and (min-width: 600px) {
+ 
+  
 }

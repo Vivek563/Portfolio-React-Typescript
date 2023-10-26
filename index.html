@@ -33,6 +33,37 @@
     />
   </head>
   <body>
+    <form netlify netlify-honeypot="bot-field" hidden className="contact-form" name="contact" method="post">
+      <span  className="form-header">Contact us</span>
+      
+      <input 
+        type="text"
+        className="email-input" 
+        placeholder="Name" 
+        id="name" 
+        name="name" 
+        required />
+      <input 
+        type="email" 
+        id="email" 
+        name="email"  
+        className="email-input" 
+        placeholder="Email" 
+        required />
+      <textarea cols={cols}
+        rows={rows}
+        id="message"
+        name="message" 
+        className="message"
+        placeholder="Message..."
+        required
+      ></textarea>
+      <button className="submit" 
+        type="submit" 
+        value="Submit message">
+        Submit
+      </button>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

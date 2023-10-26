@@ -1,14 +1,16 @@
 import Form from "./Form";
 import SleepingPanda from "./SleepingPanda";
-
+import React from "react";
 function Connect() {
   return (
     <>
-      <section className="connect">
-        <div className="pandascenter">
-        <SleepingPanda/>
+      <section style={{background:"#fffaeb"}} className="section blog ">
+        <div className="section-title">
+          <h2>Connect</h2>
+          <div className="underline"></div>
         </div>
-        <div>
+        <div className="pandaForm">
+          <SleepingPanda  />
           <Form />
         </div>
       </section>

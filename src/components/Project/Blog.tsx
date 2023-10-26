@@ -19,7 +19,7 @@ function Blog() {
           /> 
           
           <Card 
-              title="Notes Taking React App"
+              title="Notes Taking (React)"
               projectdiscription="I led a ReactJS project, integrating Object-Oriented JavaScript, Material UI, and Context API, with a focus on SDLC, robust data storage, QA, and security. Our mobile optimization and version control followed Agile methodologies, highlighting client-centricity. I showcased adaptability, independence, and a dedication to technical excellence."
               sourcelink="https://github.com/Vivek563/Notes-taking"
               livelink="https://todonotesmaking.netlify.app/"
@@ -41,7 +41,7 @@ function Blog() {
               
           />  
           <Card 
-              title="BCA Notes"
+              title="BCA NOTES (Android App)"
               projectdiscription="Build your Knowledge skills with the BCA Application. Learn the subject of BCA with a proper notes or become an expert of computer with this best BCA learning app. Learn to code with C Language for free with a many notes of BCA for learning app. If you’re reparing to take admission in BCA or doing BCA from any college then this BCA app will help you in ever for PREPARING NOTES clearing every problems."
               sourcelink="https://play.google.com/store/apps/details?id=com.vivek.bcanotes&hl=en&gl=US&pli=1"
               livelink="https://play.google.com/store/apps/details?id=com.vivek.bcanotes&hl=en&gl=US&pli=1"
