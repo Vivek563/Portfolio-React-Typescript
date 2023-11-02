@@ -30,7 +30,7 @@ function About() {
               contemporary websites, web services, and software applications
               that seamlessly blend form and function.
             </p>
-            <a href="./about.html" className="btn about-btn">
+            <a href="./about" className="btn about-btn">
               about me
             </a>
           </article>
