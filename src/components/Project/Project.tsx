@@ -55,8 +55,8 @@ function Project() {
           <Card 
               title="Digital FingerPrint"
               projectdiscription="Digital Fingerprint is an open-source web application powered by Vite and React, designed for seamless visitor data analysis. It offers real-time insights into geographical specifics, including IP address, city, country, ISP, and more. Additionally, it provides comprehensive device details such as browser, operating system, screen resolution, and installed plugins. With its user-friendly interface and minimalist design."
-              sourcelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
-              livelink="https://github.com/Vivek563/React-Blog-Application-Using-Appwrite"
+              sourcelink="https://github.com/Vivek563/Digital-FingerPrint"
+              livelink="https://fingerprint-digital.vercel.app/"
               
           />  
           <Card 
