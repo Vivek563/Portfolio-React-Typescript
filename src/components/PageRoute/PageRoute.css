@@ -668,13 +668,13 @@ Skills
 }
 
 .node {
-  width: 50%;
+  width: 75%;
 }
 
 .node-text {
   position: absolute;
   top: -2rem;
-  left: 50%;
+  left: 75%;
   transform: translateX(-50%);
 }
 
@@ -684,8 +684,11 @@ Skills
 }
 
 .react {
-  width: 70%;
+  width: 80%;
   background: var(--yellow);
+}
+.nextjs {
+  width: 70%;
 }
 
 .value-80 {
@@ -708,13 +711,16 @@ Skills
 }
 
 .react-text {
-  left: 70%;
+  left: 80%;
 }
 
 .skill-text-80 {
   left: 80%;
 }
 
+.nextjs-text{
+  left: 70%;
+}
 /*
 =============== 
 Timeline

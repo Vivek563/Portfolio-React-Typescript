@@ -1,4 +1,4 @@
-
+import React from "react"
 
 function Skills() {
   return (
@@ -35,7 +35,14 @@ function Skills() {
           <p>React</p>
           <div className="skill-container">
             <div className="skill-value react"></div>
-            <p className="skill-text react-text">70%</p>
+            <p className="skill-text react-text">80%</p>
+          </div>
+        </div>
+        <div className="skill">
+          <p>Nextjs</p>
+          <div className="skill-container">
+            <div className="skill-value nextjs"></div>
+            <p className="skill-text nextjs-text">70%</p>
           </div>
         </div>
         <div className="skill">
@@ -61,7 +68,7 @@ function Skills() {
           <p>Node</p>
           <div className="skill-container">
             <div className="skill-value node"></div>
-            <p className="node-text">50%</p>
+            <p className="node-text">75%</p>
           </div>
         </div>
 
@@ -69,7 +76,7 @@ function Skills() {
           <p>Mongodb</p>
           <div className="skill-container">
             <div style={{backgroundColor:"#6c6ce5"}} className="skill-value node"></div>
-            <p  className="node-text">50%</p>
+            <p  className="node-text">75%</p>
           </div>
         </div>
 
@@ -77,6 +84,13 @@ function Skills() {
           <p>Git/Github</p>
           <div className="skill-container">
             <div className="skill-value value-80"></div>
+            <p className="skill-text skill-text-80">80%</p>
+          </div>
+        </div> 
+        <div className="skill">
+          <p>Android</p>
+          <div className="skill-container">
+            <div style={{backgroundColor:"#6c6ce5"}} className="skill-value value-80"></div>
             <p className="skill-text skill-text-80">80%</p>
           </div>
         </div>
