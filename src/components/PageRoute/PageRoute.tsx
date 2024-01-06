@@ -7,7 +7,7 @@ import Connect from "../Contact/Connect";
 import Skills from "../Skills/Skills";
 import Timeline from "../Timeline/Timeline";
 import Blog from "../Project/Blog";
-
+import Animation from "../animation/animation";
 function PageRoute() {
  
   return (
@@ -20,6 +20,7 @@ function PageRoute() {
       <Timeline />
       <Blog />
       <Connect />
+      <Animation />
       {/* <Project /> */}
     </>
   );
